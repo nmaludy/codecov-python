@@ -15,9 +15,9 @@ classifiers = ["Development Status :: 5 - Production/Stable",
                "Topic :: Software Development :: Testing"]
 
 if sys.version_info >= (2, 7):
-    install_requires = ["requests>=2.7.9", "coverage"]
+    install_requires = ["requests>=2.7.9", "coverage<5.0"]
 else:
-    install_requires = ["requests>=2.7.9", "coverage", "argparse"]
+    install_requires = ["requests>=2.7.9", "coverage<5.0", "argparse"]
 
 setup(name='codecov',
       version=version,
