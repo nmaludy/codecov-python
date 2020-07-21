@@ -1,8 +1,8 @@
-coverage
+coverage==4.5.4
 ddt
 mock
-pytest
+pytest>=4.6.0
 pytest-cov
 funcsigs
 requests
-unittest2
+black ; python_version >= '3.7'
